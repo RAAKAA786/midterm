@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#top{
+   position: fixed;
+   right: 30px;
+   bottom: 30px;
+}
+
+.hr1 {
+    /* border: 3px;
+    border-style: solid;
+    border-color: rgb(255, 149, 0); */
+    border: 1px solid rgb(255, 149, 0);
+}
+
+body {
+    background-color: rgb(255, 249, 239);
+    font-family: 'Chivo Mono', monospace;
+}
+
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    background-color: black;
+    color: orange;
+    align-items: center;
+    font-family: 'Chivo Mono', monospace;
+}
+
+#logo {
+    width: 20%;
+    text-align: center;
+}
+
+#logoimage {
+    margin: 5px;
+    padding: 2px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#links {
+    width: 60%;
+    
+}
+
+#navlinks {
+    display: flex;
+    list-style-type: none;
+}
+
+#navlinks li{
+    padding: 20px;
+}
+#navlinks a{
+    color: orange;
+    text-decoration: none;
+    font-size: 16px;
+}
+#navlinks a:hover{
+    color: white;
+    transition: 1s;
+}
+
+#search {
+    width: 20%;
+   /* horizontal center */
+    text-align: center;
+    /* vertical middle */
+    align-items: center;
+}
+#searchbox {
+width: 200px;
+height: 20px;
+border-radius: 20px;
+background-color: orange;
+padding: 5px;
+}
+
+.hr2 {
+    border: 2px solid rgb(209, 252, 193);
+}
+.hr3 {
+    border: 2px solid rgb(227, 118, 1);
+}
+.hr4 {
+    border: 2px solid rgb(182, 249, 186);
+}
+.hr5 {
+    border: 2px solid rgb(244, 167, 3);
+}
+.hr6 {
+    border: 2px solid rgb(244, 167, 3);
+}
+/* Welcome Section */
+#welcome{
+    display: flex;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    
+}
+/* Services section */
+#services-section{
+    background-color: bisque;
+}
+#services {
+    /* margin: 10px; */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services .box{
+    border: 2px solid brown;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 25px;
+    background-color: rgb(241, 241, 241);
+}
+#services .box img{
+    height: 160px;
+    width: 180px;
+    border-radius: 20px;
+    /* To align the image in the center:  */
+    display: block;
+    margin: auto; 
+}
+#services .box p{
+    text-align:center; 
+    font-family: 'Bree Serif', serif;
+}
+/* Client Section */
+#client-section{
+    background-image: url(../images/bg3.jpg);
+    background-position: center;
+    height: 350px;
+}
+#clients {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* For responsive website on mobiles, extra content will be wrapped:  */
+    flex-wrap: wrap;
+}
+#clients img{
+   height: 120px;
+   border-radius: 10px;
+   /* width: 120px; */
+}
+.client-item{
+    padding: 20px;
+}
+
+
+/* Section Contact Us */
+#contact{
+    background-image: url(../images/bg4.jpg);
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 520px;
+}
+/* 
+#contact-box{
+    Alternate of :- form 40% width and center align
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+}
+*/
+#contact-box form{
+    width: 40%;
+    margin: auto;
+}
+#contact-box input, #contact-box textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    background-color: cornsilk;
+}
+#contact-box input[type=submit]{
+    cursor: pointer; /* Button gets a hand pointer to Click */
+    background-color: rgb(228, 129, 17);
+}
+#contact-box label{
+    font-size: 18px;
+    font-family: 'Bree Serif', serif;
+    margin: 5px;
+}
+
+
+/* About us starts */
+#aboutus{
+    height: 400px;
+}
+
+/* Clients section */
+#clients{
+    height: 400px;
+}
+#contactus{
+    height: 400px;
+}
+#social{
+    height: 400px;
+}
